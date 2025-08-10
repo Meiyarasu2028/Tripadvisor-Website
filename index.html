@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tripadvisor</title>
+
+    <!-- font Awesome -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Gabarito:wght@400..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Young+Serif&display=swap"
+        rel="stylesheet">
+
+    <!-- My Css -->
+
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- header logo -->
+
+    <link rel="icon" href="./images/tripadvisor (5).jpg">
+</head>
+
+<body>
+    <!-- nav bar -->
+
+    <div class="navbar">
+
+        <h1>Tripadvisor</h1>
+
+
+        <div class="navbar__container">
+            <p><a href="">Discover</a></p>
+            <p><a href="">Trips</a></p>
+            <p><a href="">Review</a></p>
+            <p><a href="">More</a></p>
+        </div>
+
+        <div class="navbar__signin">
+            <p><i class="fa-solid fa-globe"></i> <span style="color: rgb(215, 210, 210);">|</span> INR</p>
+            <p class="navbar__signin__sign">sign in</p>
+        </div>
+        
+        <!-- side navbar -->
+        <div class="sidenav" onclick="shownavbar()">
+            <p><i class="fa-solid fa-bars"></i></p>
+        </div>
+
+        <div class="overlay">
+            <div class="xmark" onclick="closenavbar()">
+                <p><i class="fa-solid fa-xmark"></i></p>
+            </div>
+        <div class="sidenav_overlay">
+            <p><a href="">Discover</a></p>
+            <p><a href="">Trips</a></p>
+            <p><a href="">Review</a></p>
+            <p><a href="">More</a></p>
+        </div>
+
+    </div>
+
+    </div>
+
+    
+
+    <div class="header__container">
+        <div class="header__contant">
+            <h1>Where to?</h1>
+        </div>
+    </div>
+
+    <div class="nav__section">
+        <div class="nav__section__contant">
+            <a href="">
+                <p><i class="fa-solid fa-house-user"></i> Search All</p>
+            </a>
+            <a href="">
+                <p><i class="fa-solid fa-bed"></i> Hotels</p>
+            </a>
+            <a href="">
+                <p><i class="fa-solid fa-camera"></i> Things to Do</p>
+            </a>
+            <a href="">
+                <p><i class="fa-solid fa-utensils"></i> Restaurants</p>
+            </a>
+            <a href="">
+                <p><i class="fa-solid fa-plane-circle-check"></i> Flights</p>
+            </a>
+            <a href="">
+                <p><i class="fa-solid fa-house"></i> Holiday Homes</p>
+            </a>
+        </div>
+    </div>
+
+    <div class="Search__container">
+
+        <div class="Search__container__contant">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="search" placeholder="Places to go,thing to do,Hotels">
+
+            <div class="Search__container__text">
+                <p>Search</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="image__border">
+        <div class="image__border__section">
+            <img src="./images/ChatGPT Image Aug 9, 2025, 06_12_25 PM.png" alt="header">
+
+        </div>
+
+        <div class="image__border__contant">
+            <h1>Find things to do for everything you’re into</h1>
+            <p>Browse 400,000+ experiances and book with us</p>
+            <button>Book Now</button>
+        </div>
+    </div>
+
+
+    <div class="image__container">
+
+        <div class="image__container__contant">
+            <h2>Do something award-winning</h2>
+            <small>2025’s Travellers’ Choice Awards Best of the Best Things to Do</small>
+        </div>
+
+        <div class="image__container__head">
+
+            <div class="image__container__image">
+                <img src="./images/tripadvisor (1).jpg" alt="image">
+                <h3>Top Experiances</h3>
+            </div>
+
+            <div class="image__container__image">
+                <img src="./images/tripadvisor (3).jpg" alt="image">
+                <h3>Top Attractions</h3>
+            </div>
+
+            <div class="image__container__image">
+                <img src="./images/tripadvisor (4).jpg" alt="image">
+                <h3>Mount With Lake</h3>
+            </div>
+
+            <div class="image__container__image">
+                <img src="./images/tripadvisor (6).jpg" alt="image">
+                <h3>snow boarding</h3>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="image__container">
+
+        <div class="image__container__contant">
+            <h2>Explore experiences near Coimbatore</h2>
+            <small>Can’t-miss picks near you</small>
+        </div>
+
+        <div class="image__container__head">
+
+            <div class="image__container__image">
+                <img src="./images/coimbatur (1).jpg" alt="image">
+                <h3>Adiyogi Sun Light View - A Spectacle of Lights, Sounds-Coimpature</h3>
+                <p><i class="fa-solid fa-heart"></i></p>
+                <small>5.0 🟢🟢🟢🟢🟢 (10)</small><br>
+                <small>from ₹ 4,706 per adult</small>
+            </div>
+
+            <div class="image__container__image">
+                <img src="./images/coimbatur (3).jpg" alt="image">
+                <h3>Isha yoga - Center Coimbatore</h3>
+                <p><i class="fa-solid fa-heart"></i></p>
+                <small>4.0 🟢🟢🟢🟢⚪ (28)</small><br>
+                <small>from ₹6,919 per adult</small>
+            </div>
+
+            <div class="image__container__image">
+                <img src="./images/coimbatur (2).jpg" alt="image">
+                <h3>Marudhamalai Temple - Coimbatore</h3>
+                <p><i class="fa-solid fa-heart"></i></p>
+                <small>4.0 🟢🟢🟢🟢🟢 (1)</small><br>
+                <small>from ₹3,987 per adult</small>
+            </div>
+
+            <div class="image__container__image">
+                <img src="./images/w (1).jpeg" alt="image">
+                <h3>Coimbatore to Ooty Day trip _ Explore a Perfect Hill Station</h3>
+                <p><i class="fa-solid fa-heart"></i></p>
+                <small>5.0 🟢🟢🟢🟢🟢 (2)</small><br>
+                <small>from ₹17,257 per adult</small>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="image__container2">
+        <img src="./images/family 1.jpg" alt="family">
+
+        <div class="image__container2__contant">
+            <h1>The world’s best things to do</h1>
+            <small>Make it a trip to remember with 2025’s Travellers’ Choice Awards Best of the Best.</small>
+            <button>Reveal the Winners</button>
+        </div>
+
+    </div>
+
+    <div class="message_container">
+
+        <img src="./images/div.jpg" alt="message">
+        <div>
+            <h3>Plan your trip your way</h3>
+            <small>Save your faves and more with Trips</small>
+        </div>
+
+        <div>
+            <button>Get Started</button>
+        </div>
+
+    </div>
+
+
+    <div class="image__container">
+
+        <div class="image__container__contant">
+            <h2>Inspiration to get you going</h2>
+        </div>
+
+        <div class="image__container__head">
+
+            <div class="image__container__image">
+                <img src="./images/italic (1).jpg" alt="image">
+                <h4>Whrere to Stargeze around the World</h4>
+            </div>
+
+            <div class="image__container__image">
+                <img src="./images/italic (2).jpg" alt="image">
+                <h4>Famous Attractions of India Gate</h4>
+            </div>
+
+            <div class="image__container__image">
+                <img src="./images/italic (3).jpg" alt="image">
+                <h4>The Ultimate Family Travel Guide</h4>
+            </div>
+
+            <div class="image__container__image">
+                <img src="./images/italic (4).jpg" alt="image">
+                <h4>Land Up on art in paris,NYC,and Other Culture hotspot</h4>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="image__container">
+
+        <div class="image__container__contant">
+            <h2>Things to do—right now</h2>
+            <small>Seasonal faves you don’t want to miss</small>
+        </div>
+
+        <div class="image__container__head">
+
+            <div class="image__container__image">
+                <img src="./images/sea (1).jpg" alt="image">
+                <h3>Small-group boat tour of the Amalfi Coast from Sorrento</h3>
+                <small>4.8 🟢🟢🟢🟢🟢 (326)</small><br>
+                <small>from ₹16,106 per adult</small>
+
+            </div>
+
+            <div class="image__container__image">
+                <img src="./images/sea (2).jpg" alt="image">
+                <h3>Explore Lake With Our Premium Day Tour</h3>
+                <small>4.9 🟢🟢🟢🟢🟢 (3,383)</small><br>
+                <small>from ₹3,660 per adult</small>
+
+            </div>
+
+            <div class="image__container__image">
+                <img src="./images/sea (3).jpg" alt="image">
+                <h3>Dolphins Search and Belagil Caves from Albufeira</h3>
+                <small>5.0 🟢🟢🟢🟢🟢 (323)</small><br>
+                <small>from ₹9,428 per adult</small>
+            </div>
+
+            <div class="image__container__image">
+                <img src="./images/sea (4).jpg" alt="image">
+                <h3>Whitewater Rafting in jackson Hole:Small Boat Excitment</h3>
+                <small>4.9 🟢🟢🟢🟢🟢 (490)</small><br>
+                <small>from ₹11,681 per adult</small>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="image__container">
+
+        <div class="image__container__contant">
+            <h2>Inspiration to get you going</h2>
+            <small>Weekend getaways from Coimbatore</small>
+        </div>
+
+        <div class="image__container__head">
+
+            <div class="image__container__image">
+                <img src="./images/o1 (1).jpg" alt="image">
+                <h4>Mhabalipuram,India</h4>
+            </div>
+
+            <div class="image__container__image">
+                <img src="./images/o1 (2).jpg" alt="image">
+                <h4>Mysuru (Mysure),India</h4>
+            </div>
+
+            <div class="image__container__image">
+                <img src="./images/o1 (3).jpg" alt="image">
+                <h4>Ooty (Udhagamandalam)</h4>
+            </div>
+
+            <div class="image__container__image">
+                <img src="./images/o4.jpg" alt="image">
+                <h4>Bangaluru India</h4>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="image__container3">
+
+        <div class="image__container3__image">
+            <img src="./images/caption(39).jpg" alt="image">
+        </div>
+
+        <div class="image__container3__contant">
+            <p>TripadvisorSponsored by Wanderlab</p>
+            <h1>Watch The Wanderer</h1>
+            <button>Learnmore</button>
+        </div>
+
+    </div>
+
+
+    <div class="image__container">
+
+        <div class="image__container__contant">
+            <h2>Inspiration to get you going</h2>
+            <small>Weekend getaways from Coimbatore</small>
+        </div>
+
+        <div class="image__container__head">
+
+            <div class="image__container__image">
+                <img src="./images/caption(40).jpg" alt="image">
+                <h4>Mhabalipuram,India</h4>
+            </div>
+
+            <div class="image__container__image">
+                <img src="./images/caption(41).jpg" alt="image">
+                <h4>Mysuru (Mysure),India</h4>
+            </div>
+
+            <div class="image__container__image">
+                <img src="./images/caption(42).jpg" alt="image">
+                <h4>Ooty (Udhagamandalam)</h4>
+            </div>
+
+            <div class="image__container__image">
+                <img src="./images/caption(46).jpg" alt="image">
+                <h4>Bangaluru India</h4>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer">
+
+        <div class="footer__section">
+            <div>
+                <p>About Tripadvisor</p>
+                <p>About Us</p>
+                <p>Press</p>
+                <p>Resources and Policies</p>
+                <p>Careers</p>
+                <p>Trust & Safety</p>
+                <p>Contact us</p>
+                <p>Tripadvisor Technology Blog</p>
+            </div>
+
+            <div>
+                <p>Explore</p>
+                <p>Write a review</p>
+                <p>Add a Place</p>
+                <p>Join</p>
+                <p>Travellers' Choice</p>
+                <p>Help Centre</p>
+                <p>Travel Stories</p>
+            </div>
+
+            <div>
+                <p>Do Business With Us</p>
+                <p>Owners & DMO/CVB</p>
+                <p>Business Advantage</p>
+                <p>Sponsored Placements</p>
+                <p>Access our Content API</p>
+                <p> Get The App</p>
+                <p>iPhone App</p>
+                <p>Android App</p>
+            </div>
+
+            <div>
+                <p>Tripadvisor Sites</p>
+                <p>Book tours and attraction tickets on Viator</p>
+            </div>
+
+        </div>
+
+        <div>
+            <p>Tripadvisor LLC makes no guarantees for availability of prices advertised on our sites and applications. Listed prices may require a stay of a particular length or have blackout dates, qualifications or other applicable restrictions. Tripadvisor LLC is not responsible for any content on external web sites that are not owned or operated by Tripadvisor .
+                Tripadvisor LLC is not a booking agent or tour operator. When you book with one of our partners, please be sure to check their site for a full disclosure of all applicable fees.</p>
+        </div>
+
+        <div class="footer__section2">
+
+            <div>
+                <form>
+                    <select>
+                        <option value="INR">₹ INR</option>
+                        <option value="U.S.Dollers">₹ U.S.Dollers</option>
+                    </select>
+                </form>
+            </div>
+
+            <div>
+                <form>
+                    <select>
+                        <option value="INDIA">₹ INDIA</option>
+                        <option value="USA">₹ USA</option>
+                    </select>
+                </form>
+            </div>
+
+        </div>
+
+        <div class="footer__social__media">
+            <p><i class="fa-brands fa-facebook"></i></p>
+            <p><i class="fa-brands fa-x-twitter"></i></p>
+            <p><i class="fa-brands fa-pinterest"></i></p>
+            <p><i class="fa-brands fa-instagram"></i></p>
+            <p><i class="fa-brands fa-square-youtube"></i></p>
+        </div>
+
+
+
+    </div>
+     
+    <script src="./style.js"></script>
+
+</body>
+
+</html>
