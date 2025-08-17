@@ -94,6 +94,7 @@ body {
     z-index: 2;
     left: -50%;
     transition: 2s;
+    
 
 }
 
@@ -102,6 +103,7 @@ body {
     margin-top: 40px;
     margin-left: 20px;
     position: relative;
+    
 }
 
 .sidenav_overlay a {
