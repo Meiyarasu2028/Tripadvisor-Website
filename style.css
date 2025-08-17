@@ -63,6 +63,7 @@ body {
     cursor: pointer;
     font-size: 12px;
     border: 1px solid rgb(29, 43, 29);
+    transition: 0.3s ease;
 }
 
 .navbar__signin__sign:hover {
@@ -195,6 +196,7 @@ body {
     cursor: pointer;
     border: 1px solid rgb(29, 43, 29);
     text-align: center;
+    transition: 0.3s ease;
 }
 
 .Search__container__text:hover {
@@ -283,10 +285,12 @@ body {
     height: 300px;
     object-fit: cover;
     border-radius: 10px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
 .image__container__image img:hover {
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    transform: scale(1.03);
 }
 
 .image__container__image p {
@@ -425,11 +429,15 @@ body {
     width: 100%;
     font-size: 15px;
     padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    
 }
 
 .footer__section {
     display: flex;
     gap: 50px;
+    
 
 }
 
@@ -446,6 +454,7 @@ body {
     display: flex;
     gap: 20px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .footer__section2 select {
@@ -536,6 +545,8 @@ body {
         width: 90%;
     }
 
+    
+
 }
 
 @media screen and (max-width:550px) {
@@ -564,13 +575,17 @@ body {
         margin: 10px auto;
     }
 
+    .footer{
+        font-size: 10px;
+    }
+
     /* nav section */
 
     .nav__section__contant {
         background-color: rgba(128, 128, 128, o.4);
         overflow: auto;
         white-space: nowrap;
-        gap: 20px;
+        gap: 15x;
     }
 
     .nav__section__contant a {
